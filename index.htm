@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html>
+
+<title>IbeU</title>
+
+<head>
+
+	<meta name="discription" content="HTML">
+	<meta charset="utf-8">
+	<meta name="author" content="Abhishek Joshi">
+	<meta name="keywords" content="Blogs, Uttarakhand, Uttarkhand blogs, devbhoomi, pahad, pahadi">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="./Resources/icon.png" type="image/x-icon">
+
+	<link rel="stylesheet" type="text/css" href="blogstyle.css">
+	<link rel="stylesheet" type="text/css" href="dynamic.css">
+	<script src="homescript.js"></script>
+	<script src="nav.js"></script>
+
+
+</head>
+
+<script>
+//window.alert("The page is still Under development. This is just a demo Layout Page, most of the links are missing. full page will be launched soon. ~ Abhishek Joshi");
+</script>
+
+</head>
+
+<body>
+
+	<div id="mysidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closenav()">&times;</a>
+		<a href="./about.htm">ABOUT</a>
+		<a href="./resources.htm">RESOURCES</a>
+		<a href="./donate.htm"> DONATE</a>
+		<!--<a href="#">QUERIES</a>-->
+		<a href="./more.htm">MORE</a>
+
+		<ul>
+			<li> <img src="./Icons/fb_icon.png"></li>
+			<li> <img src="./Icons/insta_icon.png"></li>
+			<li> <img src="./Icons/twitter_icon.png"></li>
+			<a href="https://www.youtube.com/channel/UCtd27Cz9F4OFRcYPqPwimqQ?view_as=subscriber" class="url">
+				<li> <img src="./Icons/yt_icon.png"></li>
+			</a>
+		</ul>
+
+	</div>
+	<div id="shift">
+		<div id="header">
+			<a href="#">
+				<div class="freeman"><img src="./Resources/Ibu.png"></div>
+			</a>
+			<div class="nav" onclick="opennav()">
+				<span class="burger">
+					<hr style="
+    margin-top: 0px;
+    margin-bottom: 0px;">
+					<hr style="
+    margin-top: 6px;
+    margin-bottom: 0px;">
+					<hr style="
+    margin-top: 6px;">
+				</span>
+				<span class="dot"></span>
+			</div>
+		</div>
+		<div class="head_container">
+			<div id="content_heading">
+				<span class="heading">
+					Life Hackers
+				</span>
+			</div>
+		</div>
+		<div id="homeP">
+			<span class="circ"></span>
+			<span id="pg_dis">
+				<span class="utt">Pahadi</span><br>
+				<span class="trv">Travel</span><br>
+				<span class="blo">Blogs</span><br>
+			</span>
+		</div>
+		<div class="nav2" id="btnav">
+			<li onclick="openrecent()">
+				<h2>Articles</h2>
+			</li>
+			<li onclick="openatr()">
+				<h2>Authors</h2>
+			</li>
+			<li onclick="openvid()">
+				<h2>Videos</h2>
+			</li>
+			<li onclick="openupc()">
+				<h2>Upcoming</h2>
+			</li>
+		</div>
+		<div id="recent">
+			<span class="foldup" onclick="foldup()">^</span>
+			<h1 class="fth">Articles</h1>
+			<div class="serials">
+				<li> Madhmaheshwar aka Madhye : A brief guide</li>
+			</div>
+
+		</div>
+		<div id="atr">
+			<h1 class="fth">Authors</h1>
+			<div class="flexz">
+				<div class="atr_img">
+					<img src="./Resources/watson.jpg">
+				</div>
+				<div class="ab_atr">
+
+					<h1>Anubhav Panwar</h1>
+					<p>A travel enthusiast and a magician of words. Area of interest are hilly tracks and will
+						soon be looking forward to win 'Everest.</p>
+				</div>
+			</div>
+			<div class="flexz">
+				<div class="atr_img">
+					<img src="./Resources/holmes.jpeg">
+				</div>
+				<div class="ab_atr">
+
+					<h1>Abhishek Joshi</h1>
+					<p>Working as a tour assistant for more than 2 years, have learned through exploring different regions of himalayas.</p>
+				</div>
+			</div>
+			<span class="foldup" onclick="foldup()">^</span>
+		</div>
+		<div id="vid">
+			<h1 class="fth">Videos</h1>
+			<div class="videoh">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/iXegW4SrJ4U" frameborder="0"
+					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+			</div>
+			<div class="videoh">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/veWjiHl3yS8" frameborder="0"
+					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+			</div>
+			<span class="foldup" onclick="foldup()">^</span>
+		</div>
+		<div id="upc">
+			<span class="foldup" onclick="foldup()">^</span>
+			<h1 class="fth">Upcoming</h1>
+			<div class="serials">
+				<li> Niti-Ghamsali : The Border Village of Uttarakhand</li>
+			</div>
+		</div>
+
+	</div>
+	<!--<div class="content" id="content">
+
+	<div class="image_holder"><img src="./Resources/jd.jpg"></div>
+	<div class="content_holder">This is a content
+	</div>
+</div>-->

@@ -1,0 +1,123 @@
+@media screen and (max-width: 600px)
+{
+
+	.dot
+	{
+		margin:0 auto;
+		/*display:block;*/
+		margin-top:4px;
+		margin-bottom:5px;
+		animation-name:dot_anime;
+		animation-duration:2s;
+		animation-delay:0.3s;
+		animation-iteration-count:infinite;
+	}
+	/*.burger
+	{	
+		display:none;
+	}*/
+	.head_container
+	{
+		width:90%;
+		
+		border-width:10px;
+	}
+	#content_heading
+	{
+		font-size:35px;
+		width:100%;
+	}
+	.freeman
+	{
+		font-size:5vw;
+		width:100%;
+	}
+	.content
+	{
+		width:95%;
+		border-width:3px;
+		border-bottom-width:50px;
+		min-height: 20em;
+		text-align:justify;
+	}
+	.content_holder 
+	{
+		margin-top:20px;
+	}
+	.freeman img
+	{
+		height:1.2em;
+	}
+		
+		
+		.freeman
+	{
+	/*text-align:center;*/
+	color:#e45f77;
+	font-family:BankGothic Lt Bt;
+	
+	cursor:default;
+	width:fit-content;
+
+	}
+
+	
+	.nav
+	{
+	
+	
+	/*color:red;*/
+	text-align:left;
+	cursor:pointer;
+	
+	}
+	.circ
+	{
+		display:none;
+	}
+	.utt, .trv, .blo
+	{
+		position:inherit;
+		font-size:40px;
+	}
+	#pg_dis
+	{
+		text-align:center;
+		display:inline-block;
+	}
+	#homeP
+	{
+		text-align:center;
+		height:auto;
+	}
+	.fth
+	{
+		margin-left:auto;
+		text-align:center;
+	}
+	.flexz,.atr_img,.ab_atr
+	{
+		display:block;
+	}
+	.atr_img
+	{
+		width:80%;
+		margin:auto;
+		text-align:center;
+		padding:0;
+	}
+	.ab_atr
+	{
+		width:100%;
+		padding:0;
+	}
+	.videoh
+	{
+		position: relative; padding: 0; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; 
+	}
+	.videoh iframe
+	{	position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+	}	
+}
+
+
